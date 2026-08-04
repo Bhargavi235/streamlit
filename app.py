@@ -10,7 +10,7 @@ st.set_page_config(
 # With caching, the dataset is loaded only once, making the application much faster.
 @st.cache_data
 def load_data():
-    df = pd.read_csv("DuaLipa.csv")
+    df = pd.read_csv("dataset.csv")
     return df
 
 
@@ -24,8 +24,7 @@ page = st.sidebar.radio(
         "Home",
         "Data Explorer",
         "Visualizations",
-        "Popularity Predictor",
-        "About"
+       
     ]
 )
 if page == "Home":
