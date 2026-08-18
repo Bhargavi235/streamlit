@@ -1,0 +1,4 @@
+track_id|track_name|artists|album_name|popularity|duration_ms|explicit|track_genre
+4uLU6hMCjMI75M1A2tKUQC|The Night We Met|Lord Huron|Strange Trails|94|208211|No|indie
+1BxfuPKGuaTgP7aM0Bbdwr|Cruel Summer|Taylor Swift|Lover|96|178426|No|pop
+3AJwUDP919kvQ9QcozQPxg|Yellow|Coldplay|Parachutes|91|266773|No|alternative
