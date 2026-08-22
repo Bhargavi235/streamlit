@@ -905,7 +905,7 @@ with tab4:
 
 with tab5:
 
-    st.subheader("🗑️ Delete Music Record")
+    st.subheader(" Delete Music Record")
 
     delete_id = st.text_input(
         "Track ID to Delete",
@@ -917,7 +917,7 @@ with tab5:
         "current data file. Create a backup before deletion if required."
     )
 
-    if st.button("🗑️ Delete Record"):
+    if st.button(" Delete Record"):
 
         if not validate_track_id(delete_id.strip()):
 
